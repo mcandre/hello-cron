@@ -40,6 +40,8 @@ $ crontab -l
 
 ```
 $ sudo crontab -e
+...
+:wq
 ```
 
 ## Provision
