@@ -39,7 +39,7 @@ $ crontab -l
 ## Global
 
 ```
-$ sudo crontab -e
+$ sudo crontab -u root -e
 ...
 :wq
 ```
