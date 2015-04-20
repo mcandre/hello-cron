@@ -22,8 +22,6 @@ $ crontab -l
 
 # INSTALL
 
-## Per-user
-
 Use `crontab -e` to launch an interactive crontab editing session, each line representing an individual cron job. When you're ready, save and quit the editing session to effect your changes.
 
 ```
@@ -36,7 +34,7 @@ $ crontab -l
 */1 * * * * .../hello-cron/lib/shout
 ```
 
-## Global
+## As root user
 
 ```
 $ sudo crontab -u root -e
