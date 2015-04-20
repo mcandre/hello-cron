@@ -13,13 +13,42 @@ $ lib/shout
 
 hello-cron provides a simple example of scheduling jobs with [cron / crond](https://en.wikipedia.org/wiki/Cron).
 
+# LIST CRON JOBS
+
+```
+$ crontab -l
+@hourly /usr/local/Cellar/openssl-osx-ca/1.0.4/bin/openssl-osx-ca /usr/local/bin/brew
+```
+
 # INSTALL
+
+## Per-user
+
+Use `crontab -e` to launch an interactive crontab editing session, each line representing an individual cron job. When you're ready, save and quit the editing session to effect your changes.
 
 ```
 $ crontab -e
 ...
 :wq
+
+$ crontab -l
+@hourly /usr/local/Cellar/openssl-osx-ca/1.0.4/bin/openssl-osx-ca /usr/local/bin/brew
+*/1 * * * * .../hello-cron/lib/shout
 ```
+
+## Global
+
+```
+$ sudo crontab -e
+```
+
+## Provision
+
+```
+$ cp shout.crontab /etc/cron.d/
+```
+
+# SYNTAX
 
 ## Schedule once a minute
 
