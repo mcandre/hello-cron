@@ -6,3 +6,9 @@
 $ lib/shout
 ...
 ```
+
+# REQUIREMENTS
+
+* [mplayer](https://www.mplayerhq.hu/design7/news.html)
+
+E.g., `brew install mplayer`
