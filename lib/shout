@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# treat resources as relative to this script's parent directory
+cd "${0%/*}"/..
+
+mplayer gobbles.mp3
