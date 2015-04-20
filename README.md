@@ -55,7 +55,7 @@ $ cp shout.crontab /etc/cron.d/
 ## Schedule once a minute
 
 ```
-*/1 * * * * .../hello-cron/lib/shout
+* * * * * .../hello-cron/lib/shout
 ```
 
 # Schedule every 5 minutes
