@@ -44,7 +44,7 @@ $ sudo crontab -u root -e
 ## Provision
 
 ```
-$ cp shout.crontab /etc/cron.d/
+$ cp conf/shout.crontab /etc/cron.d/
 ```
 
 # SYNTAX
