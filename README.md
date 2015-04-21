@@ -98,6 +98,12 @@ $ cp shout.crontab /etc/cron.d/
 * * * */60 * .../hello-cron/lib/shout
 ```
 
+# Schedule every day at midnight
+
+```
+0 0 * * * .../hello-cron/lib/shout
+```
+
 # UNINSTALL
 
 ```
