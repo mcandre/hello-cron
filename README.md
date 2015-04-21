@@ -17,7 +17,6 @@ hello-cron provides a simple example of scheduling jobs with [cron / crond](http
 
 ```
 $ crontab -l
-@hourly /usr/local/Cellar/openssl-osx-ca/1.0.4/bin/openssl-osx-ca /usr/local/bin/brew
 ```
 
 # INSTALL
