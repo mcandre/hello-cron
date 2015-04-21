@@ -29,7 +29,7 @@ $ crontab -e
 :wq
 
 $ crontab -l
-*/1 * * * * .../hello-cron/lib/shout
+* * * * * .../hello-cron/lib/shout
 ```
 
 ## As root user
@@ -48,59 +48,7 @@ $ cp conf/shout.crontab /etc/cron.d/
 
 # SYNTAX
 
-## Schedule once a minute
-
-```
-* * * * * .../hello-cron/lib/shout
-```
-
-# Schedule every 5 minutes
-
-```
-*/5 * * * * .../hello-cron/lib/shout
-```
-
-# Schedule every 50 minutes
-
-```
-*/50 * * * * .../hello-cron/lib/shout
-```
-
-# Schedule every 5 hours
-
-```
-* */5 * * * .../hello-cron/lib/shout
-```
-
-# Schedule every 5 days
-
-```
-* * */5 * * .../hello-cron/lib/shout
-```
-
-# Schedule every 5 weeks
-
-```
-* * */35 * * .../hello-cron/lib/shout
-```
-
-# Schedule every 5 months
-
-```
-* * * */5 * .../hello-cron/lib/shout
-```
-
-# Schedule every 5 years
-
-```
-* * * */60 * .../hello-cron/lib/shout
-```
-
-# Schedule every day at midnight
-
-```
-0 0 * * * .../hello-cron/lib/shout
-```
+See [conf](https://github.com/mcandre/hello-cron/tree/master/conf) examples.
 
 # UNINSTALL
 
