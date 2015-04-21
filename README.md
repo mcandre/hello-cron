@@ -29,7 +29,6 @@ $ crontab -e
 :wq
 
 $ crontab -l
-@hourly /usr/local/Cellar/openssl-osx-ca/1.0.4/bin/openssl-osx-ca /usr/local/bin/brew
 */1 * * * * .../hello-cron/lib/shout
 ```
 
