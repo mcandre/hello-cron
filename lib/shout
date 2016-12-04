@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Treat resources as relative to this script's parent directory
 cd "${0%/*}"/..

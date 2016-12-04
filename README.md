@@ -65,4 +65,8 @@ dd
 * [cron](https://en.wikipedia.org/wiki/Cron)
 * [mplayer](https://www.mplayerhq.hu/design7/news.html)
 
-E.g., `brew install mplayer`
+## Optional
+
+* [shlint](https://rubygems.org/gems/shlint)
+* [shellcheck](http://hackage.haskell.org/package/ShellCheck)
+
