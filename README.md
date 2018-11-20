@@ -4,7 +4,7 @@
 
 [gobbles.mp3](https://raw.githubusercontent.com/mcandre/hello-cron/master/gobbles.mp3)
 
-```
+```console
 $ lib/shout
 <Gobbles!>
 ```
@@ -15,7 +15,7 @@ hello-cron provides a simple example of scheduling jobs with [cron / crond](http
 
 # LIST CRON JOBS
 
-```
+```console
 $ crontab -l
 ```
 
@@ -23,7 +23,7 @@ $ crontab -l
 
 Use `crontab -e` to launch an interactive crontab editing session, each line representing an individual cron job. When you're ready, save and quit the editing session to effect your changes.
 
-```
+```console
 $ crontab -e
 ...
 :wq
@@ -34,7 +34,7 @@ $ crontab -l
 
 ## As root user
 
-```
+```console
 $ sudo crontab -u root -e
 ...
 :wq
@@ -42,7 +42,7 @@ $ sudo crontab -u root -e
 
 ## Provision
 
-```
+```console
 $ cp conf/shout.crontab /etc/cron.d/
 ```
 
@@ -52,7 +52,7 @@ See [conf](https://github.com/mcandre/hello-cron/tree/master/conf) examples.
 
 # UNINSTALL
 
-```
+```console
 $ crontab -e
 
 dd
@@ -67,7 +67,7 @@ dd
 
 ## Optional
 
-* [shfmt](https://github.com/mvdan/sh) (e.g. `go get github.com/mvdan/sh/cmd/shfmt)
+* [shfmt](https://github.com/mvdan/sh) (e.g. `go get github.com/mvdan/sh/cmd/shfmt`)
 * [bashate](https://github.com/openstack-dev/bashate)
 * [shlint](https://rubygems.org/gems/shlint)
 * [shellcheck](http://hackage.haskell.org/package/ShellCheck)
