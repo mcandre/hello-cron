@@ -1,9 +1,6 @@
 #!/bin/sh
 
-# Treat resources as relative to this script's parent directory
-cd "${0%/*}"/..
-
 # Add Homebrew to PATH
 export PATH="$PATH:/usr/local/bin"
 
-mplayer gobbles.mp3 >/dev/null
+mplayer "${0%/*}/..gobbles.mp3" >/dev/null
