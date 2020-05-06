@@ -5,7 +5,7 @@
 [gobbles.mp3](https://raw.githubusercontent.com/mcandre/hello-cron/master/gobbles.mp3)
 
 ```console
-$ lib/shout
+$ shout
 <Gobbles!>
 ```
 

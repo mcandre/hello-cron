@@ -1,6 +1,6 @@
 #!/bin/sh
-
-# Add Homebrew to PATH
-export PATH="$PATH:/usr/local/bin"
+set -eu
+IFS="$(printf '%b_' '\n\t ')"
+IFS="${IFS%_}"
 
 mplayer "${0%/*}/..gobbles.mp3" >/dev/null
